@@ -28,3 +28,12 @@ button{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@media screen and (max-width: 800px) {
+  button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+  }
+}
