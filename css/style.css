@@ -3,26 +3,26 @@ body {
 }
 
 h1, p {
-    color: #2B6CA3;
-    text-align: center;
+  color: #2B6CA3;
+  text-align: center;
 }
 
 h2{
-	font-size: 36px;
-	text-align: center;
-	margin-top: 50px;
-	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
-	color: #002e5d; 
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+  color: #002e5d; 
 }
 
 #contact-p{
-	font-size: 20px;
-	text-align: center;
-	margin-bottom: 50px;
-	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
 }
 .container {
-	text-align: center;
+  text-align: center;
 }
 
 .circle {
