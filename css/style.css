@@ -8,8 +8,11 @@ h1, p {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+	text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
 }
 
 form {
