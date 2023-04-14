@@ -103,6 +103,25 @@ button{
     margin-right: auto;
 }
 
+@media screen and (max-width: 1200px) {
+	h2{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+  h2 {
+    font-size: 28px;
+  }
+  .container {
+    justify-content: center;
+  }
+  button {
+    width: 200px;
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   button{
     display: block;
