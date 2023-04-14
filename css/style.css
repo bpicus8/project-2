@@ -22,7 +22,10 @@ h2{
 	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
 }
 .container {
-	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .circle {
@@ -106,4 +109,14 @@ button{
     text-align: center;
     font-size: 15px;
   }
+  
+@media screen and (max-width: 600px) {
+	.container{
+		flex-direction: column;
+		align-items: stretch;
+	}
+	button{
+		width: 100%;
+		margin-bottom: 10px;
+	}
 }
