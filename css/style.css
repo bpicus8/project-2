@@ -104,7 +104,9 @@ button{
 }
 
 .home img {
-	margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
