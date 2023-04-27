@@ -103,6 +103,10 @@ button{
     margin-right: auto;
 }
 
+.home img {
+	margin: auto;
+}
+
 @media screen and (max-width: 1200px) {
 	h2{
 		font-size: 30px;
