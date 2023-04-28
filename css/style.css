@@ -1,152 +1,152 @@
 body {
-  font-family: "Georgia", "Palatino Linotype", serif;
+font-family: "Georgia", "Palatino Linotype", serif;
 }
 
 h1, p {
-    color: #2B6CA3;
-    text-align: center;
+color: #2B6CA3;
+text-align: center;
 }
 
 h2{
-	font-size: 36px;
-	text-align: center;
-	margin-top: 50px;
-	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
-	color: #002e5d; 
+font-size: 36px;
+text-align: center;
+margin-top: 50px;
+font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+color: #002e5d;
 }
 
 #contact-p{
-	font-size: 20px;
-	text-align: center;
-	margin-bottom: 50px;
-	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+font-size: 20px;
+text-align: center;
+margin-bottom: 50px;
+font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
 }
 .container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
 }
 
 .circle {
-  border-radius: 50%;
+border-radius: 50%;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 500px;
-  margin: 50px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 500px;
+margin: 50px auto;
+padding: 20px;
+background-color: #ffffff;
+border-radius: 5px;
 }
 
 form div {
-  margin-bottom: 10px;
-  width: 100%;
+margin-bottom: 10px;
+width: 100%;
 }
 
 form label {
-  display: block;
-  color: white;
-  font-weight: bold;
-  margin-bottom: 5px;
-  width: 100%;
+display: block;
+color: white;
+font-weight: bold;
+margin-bottom: 5px;
+width: 100%;
 }
 
 form input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  font-size: 16px;
-  background-color: #002e5d;
-  color: white;
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: none;
+font-size: 16px;
+background-color: #002e5d;
+color: white;
 }
 
 form input[type="submit"] {
-  background-color: #002e5d;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 15px 30px;
-  font-size: 16px;
-  cursor: pointer;
+background-color: #002e5d;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 15px 30px;
+font-size: 16px;
+cursor: pointer;
 }
 
 #logo {
-    margin-left: auto;
-    margin-right: auto;
+margin-left: auto;
+margin-right: auto;
 }
 
 button{
-  width: 250px;
-  background-color: #2B6CA3;
-  color: white;
-  padding: 14px 20px;
-  border-radius: 4px;
-  border-color: #3482c4;
-  padding: 5px;
-  margin: 5px;
-  display: inline-block;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 30px;
+width: 250px;
+background-color: #2B6CA3;
+color: white;
+padding: 14px 20px;
+border-radius: 4px;
+border-color: #3482c4;
+padding: 5px;
+margin: 5px;
+display: inline-block;
+margin: 0 auto;
+text-align: center;
+font-size: 30px;
 }
 
 #logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
 
 @media screen and (max-width: 1200px) {
-	h2{
-		font-size: 30px;
-	}
+h2{
+font-size: 30px;
+}
 }
 
 @media screen and (max-width: 1000px) {
-  h2 {
-    font-size: 28px;
-  }
-  .container {
-    justify-content: center;
-  }
-  button {
-    width: 200px;
-    font-size: 25px;
-  }
+h2 {
+font-size: 28px;
+}
+.container {
+justify-content: center;
+}
+button {
+width: 200px;
+font-size: 25px;
+}
 }
 
 @media screen and (max-width: 800px) {
-  button{
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 15px;
-  }
-  
-  .container{
-	  flex-wrap: nowrap;
-  }
+button{
+display: block;
+margin: 0 auto;
+text-align: center;
+font-size: 15px;
 }
-  
+
+.container{
+flex-wrap: nowrap;
+}
+}
+
 @media screen and (max-width: 600px) {
-	.container{
-		flex-direction: row;
-		align-items: center;
-		flex-wrap: wrap;
-	}
-	button{
-		width: 100%;
-		margin-bottom: 10px;
-	}
-	.container > * {
-		width: calc(100% / 3 - 10px);
-		margin: 5px;
-	}
+.container{
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+}
+button{
+width: 100%;
+margin-bottom: 10px;
+}
+.container > * {
+width: calc(100% / 3 - 10px);
+margin: 5px;
+}
 }
